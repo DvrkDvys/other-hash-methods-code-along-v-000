@@ -13,4 +13,3 @@ def get_the_keys(groceries)
       puts "#{food}"
     end
   end
-end
