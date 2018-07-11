@@ -9,15 +9,10 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  contacts.each do |person, data|
-  data.each do |attribute, value|
-    if attribute == :favorite_ice_cream_flavors
-      value.each do |flavor|
-        # here, each index element in an ice cream flavor string
-        puts "#{flavor}"
+    groceries.each do |food, data|
+          puts "#{food}"
+        end
       end
     end
   end
-end
-  
 end
